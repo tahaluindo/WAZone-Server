@@ -1,0 +1,70 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite" // mysql / postgresql
+  url      = env("DATABASE_URL")
+}
+
+model Bot {
+  id               String    @id @default(cuid())
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+  name             String
+  qrCode           String?
+  qrCodeCreatedAt  DateTime?
+  connectionStatus String?
+  error            String? // JSON
+  errorCreatedAt   DateTime?
+  isContactSynced  Boolean?  @default(false)
+  contacts         Contact[]
+  chats            Chat[]
+  messages         Message[]
+}
+
+model Contact {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  bot       Bot      @relation(fields: [botId], references: [id])
+  botId     String
+  waId      String
+  name      String
+}
+
+model Chat {
+  id         String    @id @default(cuid())
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  bot        Bot       @relation(fields: [botId], references: [id])
+  botId      String
+  senderId   String
+  senderName String?
+  messages   Message[]
+}
+
+model Message {
+  id               String   @id @default(cuid())
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  bot              Bot      @relation(fields: [botId], references: [id])
+  botId            String
+  chat             Chat?    @relation(fields: [chatId], references: [id])
+  chatId           String?
+  isFromMe         Boolean
+  isGroup          Boolean
+  isStatus         Boolean
+  sender           String // JSON
+  key              String // JSON
+  type             String
+  messageId        String
+  messageType      String
+  messageText      String
+  messageImage     String // JSON
+  messageTimestamp Int
+  message          String // JSON
+}
