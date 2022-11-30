@@ -3,23 +3,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/kim-dev-git/WAZone-Server">
-    <img src="https://github.com/kim-dev-git/WAZone-Web/blob/main/docs/logo.png" alt="Logo" width="240" height="60">
+  <a href="https://github.com/tahaluindo/WAZone-Server">
+    <img src="https://github.com/tahaluindo/WAZone-Server/blob/main/docs/logo.png" alt="Logo" width="240" height="60">
   </a>
 
-<h3 align="center">WAZONE - Server</h3>
+<h3 align="center">WAZONE - Server MD</h3>
 
   <p align="center">
     This project was created to fulfill the job acceptance test at KreatifIndo
     <br />
-    <a href="https://github.com/kim-dev-git/WAZone-Server"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/tahaluindo/WAZone-Server"><strong>Explore the Docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/kim-dev-git/WAZone-Server">View Demo</a>
+    <a href="https://github.com/tahaluindo/WAZone-Server">View Demo</a>
     ·
-    <a href="https://github.com/kim-dev-git/WAZone-Server/issues">Report Bug</a>
+    <a href="https://github.com/tahaluindo/WAZone-Server">Report Bug</a>
     ·
-    <a href="https://github.com/kim-dev-git/WAZone-Server/issues">Request Feature</a>
+    <a href="https://github.com/tahaluindo/WAZone-Server/issues">Request Feature</a>
   </p>
 </div>
 
@@ -104,7 +104,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/kim-dev-git/WAZone-Server.git
+   git clone https://github.com/tahaluindo/WAZone-Server.git
    ```
 2. Open the project folder
    ```sh
@@ -256,25 +256,23 @@ To get a local copy up and running follow these simple example steps.
 
 ## Contact
 
-Kiki Irwan Maulana - kiki.im.dev@gmail.com
-
-Project Link: [https://github.com/kim-dev-git/WAZone-Server](https://github.com/kim-dev-git/WAZone-Server)
+- anonsecteaminc@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/kim-dev-git/WAZone-Server.svg?style=for-the-badge
-[contributors-url]: https://github.com/kim-dev-git/WAZone-Server/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kim-dev-git/WAZone-Server.svg?style=for-the-badge
-[forks-url]: https://github.com/kim-dev-git/WAZone-Server/network/members
-[stars-shield]: https://img.shields.io/github/stars/kim-dev-git/WAZone-Server.svg?style=for-the-badge
-[stars-url]: https://github.com/kim-dev-git/WAZone-Server/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kim-dev-git/WAZone-Server.svg?style=for-the-badge
-[issues-url]: https://github.com/kim-dev-git/WAZone-Server/issues
-[license-shield]: https://img.shields.io/github/license/kim-dev-git/WAZone-Server.svg?style=for-the-badge
-[license-url]: https://github.com/kim-dev-git/WAZone-Server/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/tahaluindo/WAZone-Server.svg?style=for-the-badge
+[contributors-url]: https://github.com/tahaluindo/WAZone-Server/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tahaluindo/WAZone-Server.svg?style=for-the-badge
+[forks-url]: https://github.com/tahaluindo/WAZone-Server/network/members
+[stars-shield]: https://img.shields.io/github/stars/tahaluindo/WAZone-Server.svg?style=for-the-badge
+[stars-url]: https://github.com/tahaluindo/WAZone-Server/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tahaluindo/WAZone-Server.svg?style=for-the-badge
+[issues-url]: https://github.com/tahaluindo/WAZone-Server/issues
+[license-shield]: https://img.shields.io/github/license/tahaluindo/WAZone-Server.svg?style=for-the-badge
+[license-url]: https://github.com/tahaluindo/WAZone-Server/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
