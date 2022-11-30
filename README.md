@@ -4,13 +4,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/tahaluindo/WAZone-Server">
-    <img src="https://github.com/tahaluindo/WAZone-Server/blob/main/docs/logo.png" alt="Logo" width="240" height="60">
+    <img src="https://firebasestorage.googleapis.com/v0/b/whatsapp-93fe7.appspot.com/o/wa-zone-putih.png?alt=media&token=f163eae6-60f7-43d7-ae53-fb2f0bf983bb" alt="Logo" width="300" height="200">
   </a>
 
-<h3 align="center">WAZONE - Server MD</h3>
+<h3 align="center">WAZONE - Server Multi Device</h3>
 
   <p align="center">
-    This project was created to fulfill the job acceptance test at KreatifIndo
+    This project was created to fulfill the job acceptance at KreatifIndo
     <br />
     <a href="https://github.com/tahaluindo/WAZone-Server"><strong>Explore the Docs »</strong></a>
     <br />
@@ -58,7 +58,7 @@ Build WhatsApp API Service with `Baileys` that can:
 - Send WhatsApp message
 - Receive WhatsApp message
 - Get WhatsApp contacts
-- Able to login Multi Device
+- table to login Multi Device
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
